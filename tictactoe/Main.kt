@@ -234,7 +234,6 @@ class GameField(private val field: Array<CharArray>) {
 }
 
 fun main() {
-//    val gameField = GameField(readln().chunked(3).map { it.toCharArray() }.toTypedArray())
     val gameField = GameField(Array(3) { CharArray(3) { ' ' } })
 
     try {
